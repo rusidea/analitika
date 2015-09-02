@@ -1,0 +1,29 @@
+Возможные способы использования Wiki:
+  - Создание базы знаний в предметной области;
+  - Ведение медиатеки;
+  - Подготовка лекционных материалов и презентаций (которые можно использовать прямо в аудитории, в том числе медиаметариалы, подключив необходимые плагины и скрипты для отображения видео);
+
+
+Использование под ОС Linux:\\
+в качестве веб-сервера можно использовать встроенный в PHP, однако работает только начиная с версии 5.4.0.
+http://www.php.net/manual/en/features.commandline.webserver.php
+
+Также возможно использовать следующее программное обеспечение:
+  * http://www.uwamp.com/en/?page=download
+  * http://www.vercot.com/~serva/
+  * http://www.server2go-web.de/download/download.html
+  * http://www.denwer.ru/
+
+Хороший обзор серверов:
+http://suse.me/soft/microapache/all/
+
+А также http://www.splitbrain.org/blog/2008-03/28-compiling_a_portable_apache_for_linux
+
+
+Для экспортирования сайта в html есть плагин:
+https://www.dokuwiki.org/plugin:siteexport
+
+Полезный плагины:
+  * https://www.dokuwiki.org/plugin:pagelist
+  * https://www.dokuwiki.org/plugin:nspages
+  * https://www.dokuwiki.org/plugin:tag

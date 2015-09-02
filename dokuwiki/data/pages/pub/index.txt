@@ -1,0 +1,6 @@
+====== Тематические выпуски ======
+
+~~NOCACHE~~ 
+<nspages pub: -h1 -simpleList -actualTitle -exclude:index -textPages="Список:">
+
+Подробнее о выпусках читайте [[wiki:pravila#rasprostranenie|на странице]].

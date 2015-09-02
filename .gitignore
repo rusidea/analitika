@@ -1,0 +1,16 @@
+dokuwiki/data/index/*
+dokuwiki/data/cache/*
+dokuwiki/data/locks/*
+dokuwiki/data/tmp/*
+dokuwiki/data/meta/*
+!dokuwiki/data/meta/pub/index.changes
+!dokuwiki/data/meta/pub/index.meta
+dokuwiki/data/attic/*
+dokuwiki/data/media_meta/*
+dokuwiki/data/media_attic/*
+!_dummy
+
+dokuwiki/conf/users.auth.php
+dokuwiki/.htaccess
+server/logs/error.log
+server/logs/httpd.pid

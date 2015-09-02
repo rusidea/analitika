@@ -1,0 +1,3 @@
+В этом разделе можно найти информацию о некоммерческих организациях, действующих в Республике Беларусь.
+~~NOCACHE~~ 
+<nspages belarus:organizacii -h1 -simpleList -actualTitle -exclude:index -textPages="Список организаций в Республике Беларусь:">

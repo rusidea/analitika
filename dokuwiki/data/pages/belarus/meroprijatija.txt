@@ -1,0 +1,2 @@
+<nspages belarus:meroprijatija: -h1 -simpleList -actualTitle -exclude:index -textPages="Список мероприятий в Республике Беларусь:">
+

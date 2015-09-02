@@ -1,0 +1,4 @@
+~~NOCACHE~~ 
+<nspages belarus:gosudarstvo -h1 -simpleList -actualTitle -exclude:start -textPages="Государственные структуры Республики Беларусь:">
+
+[[belarus:государство:министерство_труда_и_социальной_защиты]]
