@@ -1,3 +1,6 @@
 [submodule "dokuwiki/data/media/pub/002"]
 	path = dokuwiki/data/media/pub/002
-	url = https://github.com/rusidea/analitika_002.git
+	url = ../analitika_002.git
+[submodule "dokuwiki/data/media/pub/kazak.by"]
+	path = dokuwiki/data/media/pub/kazak.by
+	url = ../analitika_kazak.by.git

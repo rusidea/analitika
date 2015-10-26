@@ -1,0 +1,39 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Русское Знамя [rusidea.info]
+2015.04.11(24), пятница, Минск, С.А.
+
+ОБЩЕСТВЕННАЯ ДЕЯТЕЛЬНОСТЬ
+Сбор средств для оказания помощи мирным жителям Донбасса
+
+КРАТКОЕ ОПИСАНИЕ
+В ближайшее время из Минска для мирных жителей Донецка, Горловки
+и Дебальцево отправится очередная помощь с предметами первой
+необходимости. Каждый может принять в сборе средств посильное участие.
+Помощь можно передать до 20 апреля (3 мая) включительно.
+
+ОСНОВНОЙ МАТЕРИАЛ
+Полный текстовый материал с фото и видео доступен через торрент:
+magnet:?xt=urn:btih:HUF7LU6RTBWOYFM27PBDLMDHEULBIL5V&dn=20150424.0052
+
+ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ
+Тестирование новой технологии распространения информации.
+Для использования ссылки на торрент необходимо открыть её
+в программе для работы с торрентами. Рекомендуем установить
+программу uTorrent [ http://www.utorrent.com/intl/ru/downloads ].
+
+Данное сообщение подписано криптографическими средствами GnuPG.
+Вы можете проверить достоверность данного сообщения.
+Подробнее см. https://ru.wikipedia.org/wiki/GnuPG
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iQEcBAEBAgAGBQJVPiVgAAoJEC0JPh+nn1SQQtUH/3fazevKICNOnqoYekGN2N+v
+qcAmfhfW18EpqK173WglF9b0BMgabPjYqA4/eGvgUPcm6cWvh4+NbETb8+QIHhu8
+oErRxiA4vZFYP7J7pDOBH/MIEdk5QfiTUyK/AajLXog8/kkm5FnIssdBSgQasnQr
+6miAoMmn0LupB1L95Ypu6fX0iIRUEh7NI6vCjlxiEDvOfb0KV0R2UBP+9FZAd64Z
+n3YkYTF5K0Vudbjoo06C3Qvxzvybby55rEkOF2KUK/sTLfmRf4g8YM9WomTr1i9K
+s8yf/Oq0kwQMG+qZYbZ6yPS0tXPOcmtSmHG02IGNKsznrGKk64ztrR5gfCNSbJg=
+=+vvv
+-----END PGP SIGNATURE-----

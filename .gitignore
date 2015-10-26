@@ -1,3 +1,6 @@
+dokuwiki/data/pages/my/*
+dokuwiki/data/media/my/*
+
 dokuwiki/data/index/*
 dokuwiki/data/cache/*
 dokuwiki/data/locks/*
@@ -14,3 +17,6 @@ dokuwiki/conf/users.auth.php
 dokuwiki/.htaccess
 server/logs/error.log
 server/logs/httpd.pid
+
+dokuwiki/conf/local.php
+dokuwiki/conf/local.php.bak

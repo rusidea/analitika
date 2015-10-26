@@ -1,17 +1,12 @@
- Здесь можно размещать все материалы (книги, документы, видео и прочее) по либеральной идеологии.
+====== Либератека ======
 
-Также здесь место для всех терминов и определений.
+===== Термины и определения =====
 
 [[гендерное равенство]]
 
 [[гендерное воспитание]]
 
-{{:lib:nacionalnaja_strategija_razvitija_respubliki_belarus_do_2020_goda.pdf|Национальная стратегия устойчивого социально-экономического развития Республики Беларусь на период до 2020 года.}}\\
-//...содействовать повышению в об ществе социальной значимости семьи, материнства и отцовства; содействовать трансформации гендерных стереотипов. стр.177 // \\
-Информацию о документе см. http://un.by/publications/thema/sustainabledevelopment/ \\
-Об устойчивом развитии:
-  * http://rlst.org.by/izdania/ib210/885.html
-  * http://ibb.by/ustoychivoe-razvitie
+===== Документы международных организаций =====
 
 {{:lib:unesco_gender_mainstreaming_implementation_framework_-_definitions_of_key_gender-related_concepts.pdf|UNESCO’s Gender Mainstreaming Implementation Framework: Baseline definitions of
 key concepts and terms.}}
@@ -25,8 +20,18 @@ key concepts and terms.}}
 
 {{:lib:unesco_guidelines_on_gender-neutral_language.pdf|UNESCO: Guidelines on
 Gender-Neutral Language, 1999}}\\
-//Gender equality means accepting and valuing equally the differences between women and men and the diverse roles they play in society. Gender equality includes the right to be different. This means taking into account the existing differences among women and men, which are related to class, political opinion, religion, ethnicity, race or sexual orientation. Gender equality means discussing how it is possible to go
-further, to change the structures in society which contribute to maintaining the unequal relationships between women and men, and to reach a better balance in the various female and male values and priorities. page 23//
+//Gender equality means accepting and valuing equally the differences between women and men and the diverse roles they play in society. Gender equality includes the right to be different. This means taking into account the existing differences among women and men, which are related to class, political opinion, religion, ethnicity, race or sexual orientation. Gender equality means discussing how it is possible to go further, to change the structures in society which contribute to maintaining the unequal relationships between women and men, and to reach a better balance in the various female and male values and priorities. page 23//
+
+===== Материалы в печатном виде =====
+
+{{:lib:nacionalnaja_strategija_razvitija_respubliki_belarus_do_2020_goda.pdf|Национальная стратегия устойчивого социально-экономического развития Республики Беларусь на период до 2020 года.}}\\
+//...содействовать повышению в об ществе социальной значимости семьи, материнства и отцовства; содействовать трансформации гендерных стереотипов. стр.177 // \\
+Информацию о документе см. http://un.by/publications/thema/sustainabledevelopment/ \\
+Об устойчивом развитии:
+  * http://rlst.org.by/izdania/ib210/885.html
+  * http://ibb.by/ustoychivoe-razvitie
+
+{{:lib:nac_strategija_ust_soc-ehkonom_razvitija_resp_belarus_do_2030.pdf|Национальная стратегия устойчивого социально-экономического развития Республики Беларусь на период до 2030 г.}} Одобрена на заседании Президиума Совета Министров Республики Беларусь от 10 февраля 2015 г. [[http://www.economy.gov.by/dadvfiles/001251_55175_NSUR.pdf|Исходная ссылка.]] Опубликована [[http://www.economy.gov.by/ru/macroeconomy/nacionalnaya-strategiya|здесь]].
 
 {{:lib:spravochnoe_posobie_dlja_juristov_po_gendernomu_ravenstvu.pdf|Справочное пособие для юристов по гендерному равенству.}}\\
 //Справочное пособие для юристов разработано в рамках проекта Программы развития ООН в Республике Беларусь
@@ -38,5 +43,17 @@ further, to change the structures in society which contribute to maintaining the
 СЛОВАРЬ ГЕНДЕРНЫХ ТЕРМИНОВ / Под ред. А. А. Денисовой / Региональная общественная организация "Восток-Запад: Женские Инновационные Проекты". М.: Информация XXI век, 2002. 256 с.\\
 http://www.owl.ru/gender/index.htm
 
-{{:lib:koncepcija_proekta_zakona_o_gendernom_ravenstve.pdf|Концепция проекта Закона «О гендерном равенстве» Республики Беларусь}} \\
+{{:lib:koncepcija_proekta_zakona_respubliki_belarus_o_gendernom_ravenstve.pdf|Концепция проекта Закона Республики Беларусь «О гендерном равенстве»}} \\
 //Источник: [[http://www.genderywca.by/ru/zakonodatelstvo/normative_documents.html|genderywca.by]] (Общественное объединение «Белорусская ассоциация молодых христианских женщин»), [[http://www.genderywca.by/images/legislation/legislation_rb/konts_project_zakona_rb.pdf|файл PDF]]//
+
+[[http://tbinternet.ohchr.org/_layouts/treatybodyexternal/Download.aspx?symbolno=CEDAW%2fC%2fBLR%2f7&Lang=en|Седьмой периодический доклад Республики Беларусь об осуществлении положений Конвенции за период 2002–2007 годов.]]
+
+{{:lib:nacionalnaja_procedura_odobrenija_i_registracii_mezhdunarodnoj_texnicheskoj_pomoschi.ppt|Презентация "Национальная процедура одобрения  и регистрации проектов (программ) международной технической помощи 
+(исключая представление информации  об  организации  и   (или) проведения  семинаров,  конференций,  иных общественных обсуждений в рамках международной технической помощи)"}} подготовлена экспертами Координационного бюро Программы ТАСИС Европейского Союза в Республике Беларусь.
+
+{{:lib:mezhdunarodnaja_texnicheskaja_pomosch_respublike_belarus_v_voprosax_i_otvetax.pdf|Международная техническая помощь Республике Беларусь в вопросах и ответах/ Сост. А.В. Пинигин, Е.В. Лаевская. — Мн.: Юнипак. — 88 с., 2004 год}} ([[http://www.un.by/pdf/MTP_rus.pdf|исходная ссылка]]).
+
+{{:lib:spravochnik_donory_mezhdunarodnoj_texnicheskoj_pomoschirespublike_belarus.pdf|Доноры международной технической помощи Республике Беларусь. Справочник./ Сост. В. Ф. Белицкий – Минск: Ковчег, 2009. – 105 с.}} ([[http://old.cu4eu.by/_DOC/Info/ITA/Donors/Donors.pdf|Исходная ссылка]]).
+
+{{:lib:rukovodstvo_po_programmirovaniju_mtp_evropejskogo_sojuza_belarusi_2007-2013.pdf|Руководство по программированию МТП Европейского союза Беларуси 2007-2013.}} Издание по дготовлено в рамках проекта Программы ТАСИС «Поддержка Координационного бюро Программы ТАСИС Европейского Союза в Республике Беларусь» ([[http://fincentr.by/docs/rus/programir%20MTP.pdf|исходная ссылка]]).
+===== Видеоматериалы =====

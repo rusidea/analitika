@@ -1,0 +1,32 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Русское Знамя [rusidea.info]
+2015.05.06(19), вторник, Минск, С.А.
+
+ТЕКУЩАЯ ИНФОРМАЦИЯ
+ЛГБТ-ценности не приживаются в Молдавии
+
+КРАТКОЕ ОПИСАНИЕ
+Десятки участников, сотни полицейских и тысячи протестующих –
+так в Молдавии воспринимают европейские ценности.
+
+ОСНОВНОЙ МАТЕРИАЛ
+magnet:?xt=urn:btih:M3FAFACJU56U574ZLVZMMQCHU6RF6UR7&dn=20150519.0058
+
+ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ
+Информация распространяется по технологии RussTV-3.0.
+Данное сообщение подписано криптографическими средствами GnuPG.
+Вы можете проверить достоверность данного сообщения.
+Подробнее см. https://ru.wikipedia.org/wiki/GnuPG
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iQEcBAEBAgAGBQJVX26YAAoJEC0JPh+nn1SQlFUH/0H/2JLovNPiKCDwogI9nVv+
+zU/5l5g55/zDWBahvvc53DKbDRjKUyndB5gbkzfFHdPvNBZj+FwnIk+KJH8C3293
+5HRtNu35DNPOUPekklWaGdFK949/RX7skpktcNsZKapjY6cjLfvXIb92W0Xq4rWd
+YUNHHByBup94ETz/wvrBYuupyZrC1CGXAdOmj3uTyy+pNHY/A7l3VAl0UOGRDZUu
+HCozZSYii5eokFUzrGBY2b9FR9c/70GHTalzVMWAn5K9hc2go4oD3ZF6wkf6xVo7
+Cxn8ybfMpCU1pu5+Fq7+CrdgkjZH08LBljBDmow7AF80PiACYyVEWHiEyXG9S/M=
+=GQxr
+-----END PGP SIGNATURE-----

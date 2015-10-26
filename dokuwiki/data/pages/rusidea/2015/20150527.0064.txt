@@ -1,0 +1,34 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Русское Знамя [rusidea.info]
+2015.05.14(27), среда, Минск, С.А.
+
+НОВОСТЬ
+На всеобщем референдуме в Ирландии народ большинством
+проголосовал за легализацию однополых браков
+
+КРАТКОЕ ОПИСАНИЕ
+Более 62% проголосовавших поддержали предложение о том, что
+"брак может быть заключен в соответствии с законом двумя лицами,
+независимо от их пола".
+
+ОСНОВНОЙ МАТЕРИАЛ
+magnet:?xt=urn:btih:HVMEQFVS2XY2G7SW6UAOCWDWNZGIPVPN&dn=20150527.0064
+
+ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ
+Информация распространяется по технологии RussTV-3.0.
+Данное сообщение подписано криптографическими средствами GnuPG.
+Вы можете проверить достоверность данного сообщения.
+Подробнее см. https://ru.wikipedia.org/wiki/GnuPG
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iQEcBAEBAgAGBQJVa13PAAoJEC0JPh+nn1SQTpAH/j5gpZ6PSrGZGgdhQBX0Jo66
+C7QDSgK7+ZKCvnYVYO1pPvenCbEYdcUu9NlB9yAEbrEbXX9SRmPDCfAel55Bi8l5
+zWV5eMz0FCwvAXGQHf+RmrMH+TEuF89iOWEGJoWe9uxc94nJDpdhn3pqDOl8pBu/
+YKZyADsPSDduTSmDU81wzICoHGQhjLJD3invUuK37VNzN/eoU+ercZsHKvqfAvKd
+Sm5+fpkVhRBM+DkXGTCkniSIWDR/HIJ/nNwAPoRMztbLoCmtMc6eExFnLaS2qeGc
+hEqKl9yMh0og1q7WZT03LfDJJrZ1LPzkmlQDksvSO4RhMgpb9hRCrYJ8TFFT66w=
+=9CxC
+-----END PGP SIGNATURE-----

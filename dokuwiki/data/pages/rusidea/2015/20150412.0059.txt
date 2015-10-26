@@ -1,0 +1,32 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Русское Знамя [rusidea.info]
+2015.03.30(04.12), воскресенье, Минск, С.А.
+
+НОВОСТЬ
+Православный общественно-политический телеканал ЦАРЬГРАД начал вещание в новой студии.
+
+КРАТКОЕ ОПИСАНИЕ
+Освятил телестудию протоиерей Димитрий Смирнов,
+а известный художник Иван Глазунов сделал в студии роспись.
+
+ОСНОВНОЙ МАТЕРИАЛ
+magnet:?xt=urn:btih:AVFAE3J7IKXMBFQBENZNTPOHC7NKIMLI&dn=20150412.0059
+
+ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ
+Информация распространяется по технологии RussTV-3.0.
+Данное сообщение подписано криптографическими средствами GnuPG.
+Вы можете проверить достоверность данного сообщения.
+Подробнее см. https://ru.wikipedia.org/wiki/GnuPG
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iQEcBAEBAgAGBQJVX4trAAoJEC0JPh+nn1SQhDkIAIk+og/r+w35GFIh0Zu5uxWX
+Tduz6060GViy3+VAtkNpDEdyHytkaSklffmseWEX03jAu8HJsDitRdehKZ2j7ia8
+N5u8YH+2MS0VRaDx9S6h8XH+pv4ezw6rxRyyloYfrslcUmzCPf7sz6YPljO7TWrm
+NK2nof+ajKS8l+3SVJJDNnzCfr/k3xo5l7m89RIOfPZBAnC/ILWhRL1U8YKR8cYh
+EdNyH9Zq8O8UVR0a5HssO8drIoN60LCGHF6YFD/m1kNPhg3ltCXQrO/djTSFZoXO
+8g5GfN901/qFR9S4uH/Ed2YsRvRVfjx6kHRt6pHAXEFPzDeUQZp6GrgVVuMDj+A=
+=YSb7
+-----END PGP SIGNATURE-----

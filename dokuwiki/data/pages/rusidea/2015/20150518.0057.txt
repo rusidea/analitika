@@ -1,0 +1,32 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Русское Знамя [rusidea.info]
+2015.05.05(18), понедельник, Минск, С.А.
+
+ЗАМЕТКА
+Фильм Аркадия Мамонтова «Содом»
+
+КРАТКОЕ ОПИСАНИЕ
+О международном сообществе содомитов - бывших людей,
+ставших суррогатными детьми современного мракобесия.
+
+ОСНОВНОЙ МАТЕРИАЛ
+magnet:?xt=urn:btih:B7QPW7WISD2JNYWFEOOSDO7K73WKKERV&dn=20150518.0057
+
+ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ
+Информация распространяется по технологии RussTV-3.0.
+Данное сообщение подписано криптографическими средствами GnuPG.
+Вы можете проверить достоверность данного сообщения.
+Подробнее см. https://ru.wikipedia.org/wiki/GnuPG
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iQEcBAEBAgAGBQJVX0YMAAoJEC0JPh+nn1SQTC0H/AudA9ahuhN60xXUc1C3wkSB
+hKFKVCI6X1Yv4shfrg+Qa3HI2xpTSqxGh2YLIA9+f6jQrnUcFKM8iovzJbS29xSy
+1drtcb4LTHTGvM1bD8qgnTcRSjhpqPZ7oXLptZU9uWKR8KRuuiw+fLJoYe2W3spy
+ONi5ZA6a3d2o4avxIvtcap2+Xaa7KzFH9CUPKw5vFAzPcQhYyLc4YF48IAaGlO3f
+i3ga3AQWXQbekgkpM2DMcMru9z3kaIIqIlNeY2KT6kQ6hCycwHhGzxdgBFHuA/V+
+7XHPngVMuBW0iRB/6cXc16gqcDvNghIX/vNgztyp9cHdbXKX0qVE5hPORgtDxaQ=
+=PSqR
+-----END PGP SIGNATURE-----

@@ -1,1 +1,111 @@
+~~REVEAL~~
+
+
 ====== PlayGround ======
+
+<del>Данная страница находится в разработке.</del>
+
+{{:pub:002:2015:08:kontury_izjat_nelzja_ostavit.mp4|}}
+
+<WRAP clear>kk</WRAP>
+
+===== Цели аналитической работы: =====
+
+  - формирование базы знаний в основных областях диструктивной деятельности;
+  - актуализация полученных знаний, их применение в просветительской и общественной работе;
+  - создание информационно-аналитического пространства для своевременного выявления диструктивных действий и разработки конкретных мер противодействия им.
+
+
+==== Заголовок ====
+
+3
+
+=== Заголовок ===
+
+<file: 2.txt>
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Русское Знамя [rusidea.info]
+2015.09.04(17), четверг, Минск, С.А.
+
+ИНТЕРВЬЮ
+«Православный сталинизм» - это сатанизм
+
+КРАТКОЕ ОПИСАНИЕ
+Леонид Решетников и Пётр Мультатули на радио "Радонеж".
+
+ОСНОВНОЙ МАТЕРИАЛ
+magnet:?xt=urn:btih:LU375FLV56LZI7E2LLT5ONC4SAHX26HS&dn=20150917.0065
+
+ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ
+Информация распространяется по технологии RussTV-3.0.
+Данное сообщение подписано криптографическими средствами GnuPG.
+Вы можете проверить достоверность данного сообщения.
+Подробнее см. https://ru.wikipedia.org/wiki/GnuPG
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iQEcBAEBAgAGBQJV+8/JAAoJENP99KEamzpSg+0IAI82gxsa1D+0B8CBIhAa91F2
+S+rGg0SpTXcN8MQPqjnqojCPDxrAKSy6kebdCQVAmUY8neobMOTU/VwXWqdiQ7xk
+D/0jBLfaHtOBvlJ47Jn+Bnpe4NWaooFJPxXGIS/lmNghwIH95fVWj6VfU/qqYp56
+Q+11+kMV2IwObwmq6Y7ZwcwJqJealZPwdu6gTyCtr0tcW4mkjgfhH4uWEAIa6Vd7
+hLiAI55+SOoAw4anHOpj6tXvHVVBsFHyu8EY0rAQmSssAzBBHWUy1KdmWaKmj8wW
+rBWn7TQsAA2KvUORue6mqRuv2BYLMBmbvZ3AmC2WdARXXs/rFdklGQZJ9Lp0T5k=
+=JLhD
+-----END PGP SIGNATURE-----
+</file>
+===== Задачи аналитической команды: =====
+
+  - поиск, сбор, размещение, структурирование в единой информационной системе материалов по выбранным направлениям (секторам);
+  - целенаправленное отслеживание диструктивных действий в выбранных секторах;
+  - раскрытие замыслов диструктивных действий и незамедлительное оповещение всех членов аналитической команды;
+  - разработка мер противодействия и создание необходимых сопутствующих информационно-аналитических материалов для работы общественных структур.
+
+<form>
+Action mail srn.minsk@tut.by
+Thanks "Thanks for submitting your valuable data."
+
+Fieldset "A set of fields"
+Textbox  "Employee Name" "=Your Name"
+number "Your Age" >13 <99
+email "Your E-Mail Address"
+textbox "Occupation (optional)" !
+password "Some password"
+
+fieldset "even more fields"
+select "Please select an option" "Peaches|Apples|Oranges"
+static "Some static text that could be an agreement"
+yesno "Read the agreement?"
+textarea "Tell me about your self"
+textbox "You need to write 'agree' here" /^agree$/
+submit "Submit Query"
+</form>
+
+
+Коллега, высылает редактору текстовый файл составляет материалы в текстовом виде, либо с использованием текстового процессора [[https://ru.libreoffice.org|LibreOffice]], и присылаете редактору журнала.
+
+Для публикации Ваших аналитических материалов в журнале необходимо выслать текстовый файл (.txt или .odt) с приложениями на почтовый адрес rusidea.info [at] yandex.ru с темой письма "Аналитика: [название вашего материала]".
+
+В качестве приложений обычно размещаются исходные документы или скриншоты исходных страниц или фотографии. Также можно размещать в журнале видео- и аудиоматериалы (можете высылать файлы либо ссылки на них).
+
+======Guestbook=====
+===== New Comment =====
+<form>
+action pagemod _self add_comment
+fieldset "Write new comment"
+textbox  "Name" /^((?!<\/nowiki>).)*$/
+email "Email (optional)" /^((?!<\/nowiki>).)*$/ !
+textarea "Comment" /^((?!<\/nowiki>).|\n)*$/
+submit
+</form>
+
+===== Comments =====
+<pagemod add_comment output_after>
+//@@meta.date.format.r@@://
+^<nowiki>@@Name@@</nowiki> |<nowiki>@@Email (optional)| @@</nowiki>|
+|<nowiki>@@Comment@@</nowiki> ||
+</pagemod>
+//Fri, 25 Sep 2015 14:37:40 +0200://
+^<nowiki>sa</nowiki> |<nowiki> </nowiki>|
+|<nowiki>dfgdf</nowiki> ||

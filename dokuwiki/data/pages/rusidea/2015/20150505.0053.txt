@@ -1,0 +1,38 @@
+<file: 20150505.0053.txt>
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Русское Знамя [rusidea.info]
+2015.04(05).22(05), вторник, Минск, С.А.
+
+ЗАМЕТКИ
+О роли личности И.В. Сталина в отечественной истории
+
+КРАТКОЕ ОПИСАНИЕ
+Официальная позиция Отдела внешних церковных связей Московского Патриархата.
+
+ОСНОВНОЙ МАТЕРИАЛ
+Полный текстовый материал с фото доступен через торрент:
+magnet:?xt=urn:btih:JW5OXX6OHVFNAV3AJQKZ66BIFIHGGFJ2&dn=20150505.0053
+
+ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ
+Тестирование новой технологии распространения информации.
+Для использования ссылки на торрент необходимо открыть её
+в программе для работы с торрентами. Рекомендуем установить
+программу uTorrent [ http://www.utorrent.com/intl/ru/downloads ].
+
+Данное сообщение подписано криптографическими средствами GnuPG.
+Вы можете проверить достоверность данного сообщения.
+Подробнее см. https://ru.wikipedia.org/wiki/GnuPG
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iQEcBAEBAgAGBQJVSOUnAAoJEC0JPh+nn1SQGNQIALYyF/6qKCe52H+voUJcZqeY
+7upk6CDJr1viysClxlBuDaN+f/YhUFId4tlOCyGc7Bzvo7ZnRkuLp0qGCiJsGl2n
+kHkqtXhVSjkm8btHWHxKOoE3uP1x3ZLK7mlmg54ZcIh89VCMHro1evxxgU6BhgQg
+cIX+L5GtefRTUNHZ0KNrZyFdxFIu+7KDP885tZZBVifgAREfkAUY5OQiB8X3KPiy
+cpwDf1FhXl04QtWIeUbp2V0kVHQy4rviXbq5aQAlhR3FSmEvBv/xVjVACS2XuOv9
+E8UWF/A2ye20k2zqx/MGBtMdeTh/QMUP0/0KmxVe63etf+OsQaQ/J0fl9g67P7w=
+=pel0
+-----END PGP SIGNATURE-----
+</file>

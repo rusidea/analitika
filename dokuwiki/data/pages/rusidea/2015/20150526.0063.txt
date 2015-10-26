@@ -1,0 +1,33 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Русское Знамя [rusidea.info]
+2015.05.13(26), вторник, Минск, С.А.
+
+ОБЩЕСТВЕННАЯ ДЕЯТЕЛЬНОСТЬ
+Короткометражный фильм Минского бала православной молодёжи
+награждён дипломом "За оптимизм и возрождение традиций"
+
+КРАТКОЕ ОПИСАНИЕ
+В рамках проекта «Славянские культуры на перекрестке тысячелетий»,
+осуществляемого по распоряжению Президента Российской Федерации.
+
+ОСНОВНОЙ МАТЕРИАЛ
+magnet:?xt=urn:btih:JMZMBPYAVFUPI364PLHVSZELYU4WJAWQ&dn=20150526.0063
+
+ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ
+Информация распространяется по технологии RussTV-3.0.
+Данное сообщение подписано криптографическими средствами GnuPG.
+Вы можете проверить достоверность данного сообщения.
+Подробнее см. https://ru.wikipedia.org/wiki/GnuPG
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iQEcBAEBAgAGBQJVZjCuAAoJEC0JPh+nn1SQi48H/A+ZdeULsf2SfA6vcD1Bj6T0
+DxZjt0Ha+f0sRQJybbTmJf9hxH22dXBkOUIB9u8j+oM5JKWvZnoRAo/GjIA9bAex
+G2+TYa5ed5ElcXaOMF9ouVApj68Xi7YJ3eXJtKH3Hh22o9qblUo2Gg3iYCRUB78n
+6wo6HKjaEazAqGzYSqLdCGj/ZgQE8odBBG610xQl0ZcYXGxMe9XGo5/bYMoS2G3f
+xpnDdTMn2PirMWpQTQZIParK+MDRtuooF+3SeBN/zgfbslvlcc/qH5xXmDtw70M2
+ssnEEuwqpPgiehynerxoEXNy5z1oTx2Ih7HoHKR+1VSXZAlsTrbK6Si7FHIX+X4=
+=/A8s
+-----END PGP SIGNATURE-----

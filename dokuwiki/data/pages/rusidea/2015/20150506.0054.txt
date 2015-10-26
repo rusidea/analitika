@@ -1,0 +1,36 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Русское Знамя [rusidea.info]
+2015.04(05).23(06), среда, Минск, С.А.
+
+ЗАМЕТКИ
+О войне в Сирии и народном ополчении.
+
+КРАТКОЕ ОПИСАНИЕ
+Встреча военного корреспондента Василия Павлова с читателями WAR NEWS TODAY.
+
+ОСНОВНОЙ МАТЕРИАЛ
+Полный текстовый материал с фото доступен через торрент:
+magnet:?xt=urn:btih:2TKZTFVTIFJUTIYOFLVHZTUP4DVSMQSJ&dn=20150506.0054
+
+ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ
+Тестирование новой технологии распространения информации.
+Для использования ссылки на торрент необходимо открыть её
+в программе для работы с торрентами. Рекомендуем установить
+программу uTorrent [ http://www.utorrent.com/intl/ru/downloads ].
+
+Данное сообщение подписано криптографическими средствами GnuPG.
+Вы можете проверить достоверность данного сообщения.
+Подробнее см. https://ru.wikipedia.org/wiki/GnuPG
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iQEcBAEBAgAGBQJVS0JtAAoJEC0JPh+nn1SQdxAIAKdFYRnlkthtukXw0uAv3Zo1
+uFv6pK+HPH9i9+gq/idQQMcciP8Gktw+CQ/krEFRcY57wRA5mx2geiOnRy0wXuc9
+gYicErekBHn/dnBUqNAQFrb+ry2ebEj7+hVNXZL1C8RE4HCN4IV6KJGslC5W2dMh
+MPA98wAqL9ZTerFtvs4xE2TtPdTI8x6tsXl5hMDUYeWWUy/Kzvc3yAURKaYTXz7U
+y2TE21p0/8J3CDDKRfqd/gAJF9XFQOkDM+uZlr4qI0nuM9VQvwo2q8035z+YUbbP
+ppB6Cdh8x9k666BrMGrHpiYN1qLSj0D/uBnv5buodxyqOkOgAzd0gUzbUsOrRtw=
+=JHDq
+-----END PGP SIGNATURE-----

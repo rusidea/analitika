@@ -1,0 +1,33 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Русское Знамя [rusidea.info]
+2015.05.11(24), воскресенье, Минск, С.А.
+
+ВИДЕОРЕПОРТАЖ
+Крестный ход святых равноапостольных Мефодия и Кирилла в Минске
+
+КРАТКОЕ ОПИСАНИЕ
+После праздничной Божественной литургии
+от кафедрального Свято-Духового собора проследовал крестный ход
+на Замчище, к фундаменту древнейшего храма Минска, датируемого XI веком.
+
+ОСНОВНОЙ МАТЕРИАЛ
+magnet:?xt=urn:btih:VJWLRCZLFDMAU4ZJE2PPLLI6M5IOX5UF&dn=20150525.0061
+
+ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ
+Информация распространяется по технологии RussTV-3.0.
+Данное сообщение подписано криптографическими средствами GnuPG.
+Вы можете проверить достоверность данного сообщения.
+Подробнее см. https://ru.wikipedia.org/wiki/GnuPG
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iQEcBAEBAgAGBQJVY6L3AAoJEC0JPh+nn1SQL8EH/1eepAVwrO9nHa2l/1fWvTeU
+Al03ws27Yoc1cd9X0pQNeDGN3DlaLo1u+lJizKa3Tz9q48ysDgvY7iRCg1MIw55d
+oQmRE8joXpVl4GDaEmWjtSgYO+DSYLt7d/TlLjlJp+YWH0F9mN0HVy8ulspR69jP
+IpD98TR/C887Gw/88Nv0nFUQ68IFll+McGJ6RMtesyUtyiWPTO75wg0lNDWj4EHq
+BblbEJAS5WopzPSaHl+PO3KlapZigCPjP2sOjaOqG9uXlqq3RFNr9AW4nXQVl9OZ
+Umu2cUbTBZWbh6AemkIngkPI0Fxvtu7skHPDVAHWkrVLldtpeOew0YcDYC8er4E=
+=Zo0e
+-----END PGP SIGNATURE-----

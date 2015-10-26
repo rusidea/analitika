@@ -1,0 +1,2 @@
+<nspages belarus:proekty: -h1 -simpleList -actualTitle -exclude:index -textPages="Список проектов в Республике Беларусь:">
+
