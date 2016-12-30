@@ -275,7 +275,7 @@ class renderer_plugin_text extends Doku_Renderer_xhtml {
     /**
      * Open an unordered list
      */
-    function listu_open() {
+    function listu_open($classes = NULL) {
     }
 
     function listu_close() {
@@ -285,7 +285,7 @@ class renderer_plugin_text extends Doku_Renderer_xhtml {
     /**
      * Open an ordered list
      */
-    function listo_open() {
+    function listo_open($classes = NULL) {
     }
 
     /**
@@ -324,7 +324,7 @@ class renderer_plugin_text extends Doku_Renderer_xhtml {
         $this->doc .= $text;
     }
 
-    function php($text) {
+    function php($text, $wrapper='code') {
         global $conf;
 
         if ($conf['phpok']) {
@@ -341,7 +341,7 @@ class renderer_plugin_text extends Doku_Renderer_xhtml {
         $this->doc .= $text;
     }
 
-    function html($text) {
+    function html($text, $wrapper='code') {
         $this->doc .= strip_tags($text);
     }
 
@@ -424,11 +424,11 @@ class renderer_plugin_text extends Doku_Renderer_xhtml {
         $this->doc .= $lang['doublequoteclosing'];
     }
 
-    function camelcaselink($link) {
+    function camelcaselink($link, $returnonly=false) {
         $this->internallink($link,$link);
     }
 
-    function locallink($hash, $name = NULL){
+    function locallink($hash, $name = NULL, $returnonly=false){
         $name  = $this->_getLinkTitle($name, $hash, $isImage);
         $this->doc .= $name;;
     }
@@ -446,19 +446,19 @@ class renderer_plugin_text extends Doku_Renderer_xhtml {
         }
     }
 
-    function externallink($url, $name = NULL) {
+    function externallink($url, $name = NULL, $returnonly=false) {
         $this->doc .= $this->_getLinkTitle($name, $url, $isImage);
     }
 
-    function interwikilink($match, $name = NULL, $wikiName, $wikiUri) {
+    function interwikilink($match, $name = NULL, $wikiName, $wikiUri, $returnonly=false) {
         $this->doc .= $this->_getLinkTitle($name, $wikiUri, $isImage);
     }
 
-    function windowssharelink($url, $name = NULL) {
+    function windowssharelink($url, $name = NULL, $returnonly=false) {
         $this->doc .= $this->_getLinkTitle($name, $url, $isImage);
     }
 
-    function emaillink($address, $name = NULL) {
+    function emaillink($address, $name = NULL, $returnonly=false) {
         $name = $this->_getLinkTitle($name, '', $isImage);
         $address = html_entity_decode(obfuscate($address),ENT_QUOTES,'UTF-8');
         if (empty($name)) {
@@ -468,12 +468,12 @@ class renderer_plugin_text extends Doku_Renderer_xhtml {
     }
 
     function internalmedia ($src, $title=NULL, $align=NULL, $width=NULL,
-                            $height=NULL, $cache=NULL, $linking=NULL) {
+                            $height=NULL, $cache=NULL, $linking=NULL, $return=false) {
         $this->doc .= $title;
     }
 
     function externalmedia ($src, $title=NULL, $align=NULL, $width=NULL,
-                            $height=NULL, $cache=NULL, $linking=NULL) {
+                            $height=NULL, $cache=NULL, $linking=NULL, $return=false) {
         $this->doc .= $title;
     }
 
@@ -487,7 +487,7 @@ class renderer_plugin_text extends Doku_Renderer_xhtml {
      * @param int $numrows NOT IMPLEMENTED
      * @param int $pos     byte position in the original source
      */
-    function table_open($maxcols = null, $numrows = null, $pos = null) {
+    function table_open($maxcols = null, $numrows = null, $pos = null, $classes = null) {
     }
 
     function table_close($pos = NULL) {
@@ -518,7 +518,7 @@ class renderer_plugin_text extends Doku_Renderer_xhtml {
     function tabletbody_close() {
     }
 
-    function tablerow_open() {
+    function tablerow_open($classes=NULL) {
         $this->separator = '';
     }
 
@@ -526,7 +526,7 @@ class renderer_plugin_text extends Doku_Renderer_xhtml {
         $this->doc .= DOKU_LF;
     }
 
-    function tableheader_open($colspan = 1, $align = NULL, $rowspan = 1) {
+    function tableheader_open($colspan = 1, $align = NULL, $rowspan = 1, $classes = null) {
         $this->tablecell_open();
     }
 
@@ -534,7 +534,7 @@ class renderer_plugin_text extends Doku_Renderer_xhtml {
         $this->tablecell_close();
     }
 
-    function tablecell_open($colspan = 1, $align = NULL, $rowspan = 1) {
+    function tablecell_open($colspan = 1, $align = NULL, $rowspan = 1, $classes = null) {
         $this->nSpan = $colspan;
         $this->doc .= $this->separator;
         $this->separator = ', ';

@@ -1,0 +1,12 @@
+====== архивная ======
+
+
+==== Дети ====
+
+---- struct table ----
+schema   : uchild
+cols     : %%pageid%%, FamilyName, FatherName, Name, DateOfBirth
+filter   : %%pageid%% ~ $ID$:*
+rownumbers : 1
+csv      : 0
+----

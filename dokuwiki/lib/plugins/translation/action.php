@@ -26,14 +26,14 @@ class action_plugin_translation extends DokuWiki_Action_Plugin {
     /**
      * Constructor. Load helper plugin
      */
-    function action_plugin_translation() {
+    function __construct() {
         $this->helper =& plugin_load('helper', 'translation');
     }
 
     /**
      * Register the events
      */
-    function register(&$controller) {
+    function register(Doku_Event_Handler $controller) {
         $scriptName = basename($_SERVER['PHP_SELF']);
 
         // should the lang be applied to UI?

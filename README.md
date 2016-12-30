@@ -111,6 +111,23 @@ git config user.name "Admin"
 git config user.email rusidea.info@yandex.ru
 ```
 
+**Произвести завершающее редактирование:**
+```
+vim dokuwiki/data/pages/pub.txt
+vim dokuwiki/data/pages/index.txt
+```
+
+**Добавить отредактированные файлы:**
+```
+git add dokuwiki/data/pages/pub.txt
+git add dokuwiki/data/pages/index.txt
+```
+
+**Записать все изменения в один коммит в стандартном виде:**
+```
+git commit -m "Журнал vX.X.X готов к публикации"
+```
+
 **Заблокировать ветку master на запись изменений:**  
 ?
 
@@ -124,23 +141,6 @@ git merge --squash master
 **Записать все изменения в один коммит в стандартном виде:**
 ```
 git commit -m "vX.X.X"
-```
-
-**Произвести завершающее редактирование:**  
-```
-vim dokuwiki/data/pages/pub.txt  
-vim dokuwiki/data/pages/index.txt
-```
-
-**Добавить отредактированные файлы:**  
-```
-git add dokuwiki/data/pages/pub.txt  
-git add dokuwiki/data/pages/index.txt
-```
-
-**Записать все изменения в один коммит в стандартном виде:**  
-```
-git commit -m "Журнал vX.X.X готов к публикации"
 ```
 
 **Произвести слияние ветки public с веткой release:**  
@@ -197,15 +197,25 @@ git apply --check webserver.patch
 git apply webserver.patch  
 git commit -m "Изменения для публикации на вебсервере"
 ```
+
+Файл .htaccess внесён в список игнорируемых, поэтому нужно его создавать отдельно.
+
 *Для подготовки файла изменений:*  
 ```
 git format-patch master (or any commit) --stdout > webserver.patch
+```
+
+**Скачать все выпуски:**  
+```
+git submodule update --init
 ```
 
 **Записать журнал на веб-сервер:**  
 ```
 cd dokuwiki; lftp -c "open -u login analitika.rusidea.info; mirror -c -R -e   ./ ./"
 ```
+
+**Проверить получение журнала и всех выпусков аналитики на локальный компьютер (см. выше).**
 
 **Полезные ссылки:**  
 https://ariejan.net/2009/10/26/how-to-create-and-apply-a-patch-with-git/  
@@ -232,3 +242,23 @@ https://www.mediawiki.org/wiki/Download_from_Git/ru
 Мы используем аналогичную систему доставки кода.
 
 https://about.gitlab.com/2015/02/17/gitlab-annex-solves-the-problem-of-versioning-large-binaries-with-git/
+
+#### Обновление
+
+Перед обновлением всегда читать:
+https://www.dokuwiki.org/install:upgrade
+
+В плагине SQLite была изменена (commit 35dda729c418a63c884103b837f581187c51246b) переменная config['metadir'] на config['dbdir'], поэтому при обновлении плагина необходимо будет вновь изменить. Такая же переменная была изменена (commit 2f2a6435cc89841c7b65229caf88e02d5ac7a899) в плагине struct в файле `dokuwiki/lib/plugins/struct/helper/db.php`.
+
+Обновление встроенных вебсервера и php производить скриптом
+https://github.com/splitbrain/dokuwiki-stickbuilder
+
+Для этого:
+1. клонировать репозиторий на linux машину,
+2. отредактировать файл build.sh (параметр PHP_ZIP со значением на актуальную версию php)
+3. запустить скрипт ./build.sh
+4. upx не обязательно устанавливать
+5. удалить в журнале директорию server `git rm -rf server/; rm -rf server/`
+5.1. копировать `ext/php_sqlite3.dll` into `server/php/ext/`
+5.2. добавить в `server/php/php.ini` php_sqli3 extension
+6. копировать out/server в директорию журнала и добавить в Git `git add server/*`

@@ -1,3 +1,4 @@
+tmp/*
 dokuwiki/data/pages/my/*
 dokuwiki/data/media/my/*
 
@@ -20,3 +21,4 @@ server/logs/httpd.pid
 
 dokuwiki/conf/local.php
 dokuwiki/conf/local.php.bak
+dokuwiki/phpliteadmin.config.php

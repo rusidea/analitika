@@ -1,0 +1,7 @@
+====== Список учётных карточек ======
+
+---- struct table ----
+schema: ucase
+cols: %pageid%, RegisterDate, CountryCode, PlaceName, FamilyName
+rownumbers : 1
+----

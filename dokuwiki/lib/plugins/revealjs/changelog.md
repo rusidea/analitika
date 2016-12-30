@@ -1,6 +1,27 @@
 Changes
 =======
 
+### 2016-09-15
+
+  * Merge commits from ogobrecht enabling to override configuration options and improve IE support
+
+
+###     2016-09-07
+
+   * Add option to open presentation in new window and make this behavior default
+   * Nicer description of the reveal.js options
+
+
+###     2016-02-11
+
+   * fix listitem_open method signature
+
+
+###     2016-02-04
+
+
+  * Upgrade to reveal.js 3.2
+
 ###     2015-07-09
         
   *  Upgrade to reveal.js 3.1

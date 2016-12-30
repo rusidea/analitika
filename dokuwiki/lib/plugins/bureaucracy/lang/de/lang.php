@@ -7,7 +7,8 @@ $lang['e_mail']          = 'Beim Versenden der Daten ist ein Fehler augetreten';
 $lang['e_unknownconstraint'] = 'Unbekannter Feld-Parameter %s';
 
 $lang['e_required']      = '"%s" muss ausgefüllt werden.';
-$lang['e_match']         = '"%s" wurde nicht korrekt ausgefüllt. (überprüft gegen /%s/)';
+$lang['e_match']         = '"%s" wurde nicht korrekt ausgefüllt. %s';
+$lang['checkagainst']    = '(überprüft gegen /%s/)';
 $lang['e_email']         = '"%s" muss eine gültige E-Mail Adresse sein.';
 $lang['e_numeric']       = '"%s" muss eine Nummer sein.';
 $lang['e_date']          = '"%s" muss ein gültiges Datum im Format jjjj-mm-tt sein.';
@@ -31,5 +32,7 @@ $lang['summary']         = 'Erstellt mit dem Formular %s';
 
 $lang['attachmentMailEmpty']   = '(Datei nicht angegeben)';
 $lang['attachmentMailToLarge'] = '(Datei zu groß für Mail-Anhang)';
+$lang['attachmentMailToLarge_userinfo'] = 'Die Datei "%s" ist zu groß als Mail-Anhang (>%s) (E-Mail ohne Datei gesendet)';
+
 
 $lang['submit']          = 'Absenden';

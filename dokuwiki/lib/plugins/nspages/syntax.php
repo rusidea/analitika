@@ -13,6 +13,7 @@ require_once 'printers/printerLineBreak.php';
 require_once 'printers/printerOneLine.php';
 require_once 'printers/printerSimpleList.php';
 require_once 'printers/printerNice.php';
+require_once 'printers/printerPictures.php';
 require_once 'fileHelper/fileHelper.php';
 require_once 'optionParser.php';
 require_once 'namespaceFinder.php';
@@ -35,7 +36,7 @@ class syntax_plugin_nspages extends DokuWiki_Syntax_Plugin {
         return 'substition';
     }
 
-    function handle($match, $state, $pos, &$handler) {
+    function handle($match, $state, $pos, Doku_Handler $handler) {
         $return = $this->_getDefaultOptions();
         $return['pos'] = $pos;
 
@@ -56,8 +57,11 @@ class syntax_plugin_nspages extends DokuWiki_Syntax_Plugin {
         optionParser::checkOption($match, "pagesinns", $return['pagesinns'], true);
         optionParser::checkOption($match, "nat(ural)?Order", $return['natOrder'], true);
         optionParser::checkOption($match, "sort(By)?Date", $return['sortDate'], true);
+        optionParser::checkOption($match, "sort(By)?CreationDate", $return['sortByCreationDate'], true);
         optionParser::checkOption($match, "hidenopages", $return['hidenopages'], true);
         optionParser::checkOption($match, "hidenosubns", $return['hidenosubns'], true);
+        optionParser::checkOption($match, "(use)?Pictures?", $return['usePictures'], true);
+        optionParser::checkOption($match, "(modification)?Dates?OnPictures?", $return['modificationDateOnPictures'], true);
         optionParser::checkRecurse($match, $return['maxDepth']);
         optionParser::checkNbColumns($match, $return['nbCol']);
         optionParser::checkTextPages($match, $return['textPages'], $this);
@@ -67,7 +71,7 @@ class syntax_plugin_nspages extends DokuWiki_Syntax_Plugin {
         optionParser::checkRegEx($match, "pregNSOn=\"([^\"]*)\"", $return['pregNSOn']);
         optionParser::checkRegEx($match, "pregNSOff=\"([^\"]*)\"", $return['pregNSOff']);
         optionParser::checkNbItemsMax($match, $return['nbItemsMax']);
-        optionParser::checkExclude($match, $return['excludedPages'], $return['excludedNS'], $return['useLegacySyntax']);
+        optionParser::checkExclude($match, $return['excludedPages'], $return['excludedNS']);
         optionParser::checkAnchorName($match, $return['anchorName']);
         optionParser::checkActualTitle($match, $return['actualTitleLevel']);
 
@@ -91,17 +95,15 @@ class syntax_plugin_nspages extends DokuWiki_Syntax_Plugin {
             'sortid'        => false, 'reverse' => false,
             'pagesinns'     => false, 'anchorName' => null, 'actualTitleLevel' => false,
             'idAndTitle'    => false, 'nbItemsMax' => 0, 'numberedList' => false,
-            'natOrder'      => false, 'sortDate' => false, 'useLegacySyntax' => false,
-            'hidenopages'   => false, 'hidenosubns' => false
+            'natOrder'      => false, 'sortDate' => false,
+            'hidenopages'   => false, 'hidenosubns' => false, 'usePictures' => false,
+            'modificationDateOnPictures' => false,
+            'sortByCreationDate' => false
         );
     }
 
-    function render($mode, &$renderer, $data) {
+    function render($mode, Doku_Renderer $renderer, $data) {
         $this->_deactivateTheCacheIfNeeded($renderer);
-
-        if ( $data['useLegacySyntax'] ){
-            action_plugin_nspages::logUseLegacySyntax();
-        }
 
         //Load lang now rather than at handle-time, otherwise it doesn't
         //behave well with the translation plugin (it seems like we cache strings
@@ -177,6 +179,8 @@ class syntax_plugin_nspages extends DokuWiki_Syntax_Plugin {
             return new nspages_printerOneLine($this, $mode, $renderer, $data);
         } else if ($data['lineBreak']){
             return new nspages_printerLineBreak($this, $mode, $renderer, $data);
+        } else if ($data['usePictures'] && $mode == 'xhtml') { //This printer doesn't support non html mode yet
+            return new nspages_printerPictures($this, $mode, $renderer, $data);
         } else if($mode == 'xhtml') {
             return new nspages_printerNice($this, $mode, $renderer, $data['nbCol'], $data['anchorName'], $data);
         }

@@ -8,3 +8,5 @@
 # Date: Mon, 10 Aug 2015 10:18:52 +0000
 *               @ALL          1
 *               @user         8
+udb:*	@ALL	0
+udb:*	@user	8

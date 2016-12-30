@@ -48,7 +48,7 @@ class syntax_plugin_gallery extends DokuWiki_Syntax_Plugin {
     /**
      * Handle the match
      */
-    function handle($match, $state, $pos, &$handler){
+    function handle($match, $state, $pos, Doku_Handler $handler){
         global $ID;
         $match = substr($match,10,-2); //strip markup from start and end
 
@@ -144,10 +144,10 @@ class syntax_plugin_gallery extends DokuWiki_Syntax_Plugin {
     /**
      * Create output
      */
-    function render($mode, &$R, $data){
+    function render($mode, Doku_Renderer $R, $data){
         global $ID;
         if($mode == 'xhtml'){
-            $R->info['cache'] = $data['cache'];
+            $R->info['cache'] &= $data['cache'];
             $R->doc .= $this->_gallery($data);
             return true;
         }elseif($mode == 'metadata'){
@@ -518,8 +518,6 @@ class syntax_plugin_gallery extends DokuWiki_Syntax_Plugin {
         $i['height']   = $h;
         $i['border']   = 0;
         $i['alt']      = $this->_meta($img,'title');
-        $i['longdesc'] = str_replace("\n",' ',$this->_meta($img,'desc'));
-        if(!$i['longdesc']) unset($i['longdesc']);
         $i['class']    = 'tn';
         $iatt = buildAttributes($i);
         $src  = ml($img['id'],$dim);
@@ -538,6 +536,8 @@ class syntax_plugin_gallery extends DokuWiki_Syntax_Plugin {
         //prepare link attributes
         $a           = array();
         $a['title']  = $this->_meta($img,'title');
+        $a['data-caption'] = trim(str_replace("\n",' ',$this->_meta($img,'desc')));
+        if(!$a['data-caption']) unset($a['data-caption']);
         if($data['lightbox']){
             $href   = ml($img['id'],$dim_lightbox);
             $a['class'] = "lightbox JSnocheck";

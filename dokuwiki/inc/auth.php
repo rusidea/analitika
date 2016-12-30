@@ -51,11 +51,6 @@ function auth_setup() {
         if ($conf['authtype'] === $plugin) {
             $auth = $plugin_controller->load('auth', $plugin);
             break;
-        } elseif ('auth' . $conf['authtype'] === $plugin) {
-            // matches old auth backends (pre-Weatherwax)
-            $auth = $plugin_controller->load('auth', $plugin);
-            msg('Your authtype setting is deprecated. You must set $conf[\'authtype\'] = "auth' . $conf['authtype'] . '"'
-                 . ' in your configuration (see <a href="https://www.dokuwiki.org/auth">Authentication Backends</a>)',-1,'','',MSG_ADMINS_ONLY);
         }
     }
 
@@ -101,10 +96,7 @@ function auth_setup() {
         $INPUT->set('p', stripctl($INPUT->str('p')));
     }
 
-    if($INPUT->str('authtok')) {
-        // when an authentication token is given, trust the session
-        auth_validateToken($INPUT->str('authtok'));
-    } elseif(!is_null($auth) && $auth->canDo('external')) {
+    if(!is_null($auth) && $auth->canDo('external')) {
         // external trust mechanism in place
         $auth->trustExternal($INPUT->str('u'), $INPUT->str('p'), $INPUT->bool('r'));
     } else {
@@ -275,52 +267,6 @@ function auth_login($user, $pass, $sticky = false, $silent = false) {
 }
 
 /**
- * Checks if a given authentication token was stored in the session
- *
- * Will setup authentication data using data from the session if the
- * token is correct. Will exit with a 401 Status if not.
- *
- * @author Andreas Gohr <andi@splitbrain.org>
- *
- * @param  string $token The authentication token
- * @return boolean|null true (or will exit on failure)
- */
-function auth_validateToken($token) {
-    if(!$token || $token != $_SESSION[DOKU_COOKIE]['auth']['token']) {
-        // bad token
-        http_status(401);
-        print 'Invalid auth token - maybe the session timed out';
-        unset($_SESSION[DOKU_COOKIE]['auth']['token']); // no second chance
-        exit;
-    }
-    // still here? trust the session data
-    global $USERINFO;
-    /* @var Input $INPUT */
-    global $INPUT;
-
-    $INPUT->server->set('REMOTE_USER',$_SESSION[DOKU_COOKIE]['auth']['user']);
-    $USERINFO               = $_SESSION[DOKU_COOKIE]['auth']['info'];
-    return true;
-}
-
-/**
- * Create an auth token and store it in the session
- *
- * NOTE: this is completely unrelated to the getSecurityToken() function
- *
- * @author Andreas Gohr <andi@splitbrain.org>
- *
- * @return string The auth token
- */
-function auth_createToken() {
-    $token = md5(auth_randombytes(16));
-    @session_start(); // reopen the session if needed
-    $_SESSION[DOKU_COOKIE]['auth']['token'] = $token;
-    session_write_close();
-    return $token;
-}
-
-/**
  * Builds a pseudo UID from browser and IP data
  *
  * This is neither unique nor unfakable - still it adds some
@@ -376,99 +322,28 @@ function auth_cookiesalt($addsession = false, $secure = false) {
 }
 
 /**
- * Return truly (pseudo) random bytes if available, otherwise fall back to mt_rand
+ * Return cryptographically secure random bytes.
  *
- * @author Mark Seecof
- * @author Michael Hamann <michael@content-space.de>
- * @link   http://www.php.net/manual/de/function.mt-rand.php#83655
+ * @author Niklas Keller <me@kelunik.com>
  *
- * @param int $length number of bytes to get
- * @return string binary random strings
+ * @param int $length number of bytes
+ * @return string cryptographically secure random bytes
  */
 function auth_randombytes($length) {
-    $strong = false;
-    $rbytes = false;
-
-    if (function_exists('openssl_random_pseudo_bytes')
-        && (version_compare(PHP_VERSION, '5.3.4') >= 0
-            || strtoupper(substr(PHP_OS, 0, 3)) !== 'WIN')
-    ) {
-        $rbytes = openssl_random_pseudo_bytes($length, $strong);
-    }
-
-    if (!$strong && function_exists('mcrypt_create_iv')
-        && (version_compare(PHP_VERSION, '5.3.7') >= 0
-            || strtoupper(substr(PHP_OS, 0, 3)) !== 'WIN')
-    ) {
-        $rbytes = mcrypt_create_iv($length, MCRYPT_DEV_URANDOM);
-        if ($rbytes !== false && strlen($rbytes) === $length) {
-            $strong = true;
-        }
-    }
-
-    // If no strong randoms available, try OS the specific ways
-    if(!$strong) {
-        // Unix/Linux platform
-        $fp = @fopen('/dev/urandom', 'rb');
-        if($fp !== false) {
-            $rbytes = fread($fp, $length);
-            fclose($fp);
-        }
-
-        // MS-Windows platform
-        if(class_exists('COM')) {
-            // http://msdn.microsoft.com/en-us/library/aa388176(VS.85).aspx
-            try {
-                $CAPI_Util = new COM('CAPICOM.Utilities.1');
-                $rbytes    = $CAPI_Util->GetRandom($length, 0);
-
-                // if we ask for binary data PHP munges it, so we
-                // request base64 return value.
-                if($rbytes) $rbytes = base64_decode($rbytes);
-            } catch(Exception $ex) {
-                // fail
-            }
-        }
-    }
-    if(strlen($rbytes) < $length) $rbytes = false;
-
-    // still no random bytes available - fall back to mt_rand()
-    if($rbytes === false) {
-        $rbytes = '';
-        for ($i = 0; $i < $length; ++$i) {
-            $rbytes .= chr(mt_rand(0, 255));
-        }
-    }
-
-    return $rbytes;
+    return random_bytes($length);
 }
 
 /**
- * Random number generator using the best available source
+ * Cryptographically secure random number generator.
  *
- * @author Michael Samuel
- * @author Michael Hamann <michael@content-space.de>
+ * @author Niklas Keller <me@kelunik.com>
  *
  * @param int $min
  * @param int $max
  * @return int
  */
 function auth_random($min, $max) {
-    $abs_max = $max - $min;
-
-    $nbits = 0;
-    for ($n = $abs_max; $n > 0; $n >>= 1) {
-        ++$nbits;
-    }
-
-    $mask = (1 << $nbits) - 1;
-    do {
-        $bytes    = auth_randombytes(PHP_INT_SIZE);
-        $integers = unpack('Inum', $bytes);
-        $integer  = $integers["num"] & $mask;
-    } while ($integer > $abs_max);
-
-    return $min + $integer;
+    return random_int($min, $max);
 }
 
 /**
@@ -483,7 +358,7 @@ function auth_random($min, $max) {
  */
 function auth_encrypt($data, $secret) {
     $iv     = auth_randombytes(16);
-    $cipher = new Crypt_AES();
+    $cipher = new \phpseclib\Crypt\AES();
     $cipher->setPassword($secret);
 
     /*
@@ -506,7 +381,7 @@ function auth_encrypt($data, $secret) {
  */
 function auth_decrypt($ciphertext, $secret) {
     $iv     = substr($ciphertext, 0, 16);
-    $cipher = new Crypt_AES();
+    $cipher = new \phpseclib\Crypt\AES();
     $cipher->setPassword($secret);
     $cipher->setIV($iv);
 
@@ -752,10 +627,10 @@ function auth_aclcheck_cb($data) {
 
     //add ALL group
     $groups[] = '@ALL';
-    
+
     //add User
     if($user) $groups[] = $user;
-    
+
     //check exact match first
     $matches = preg_grep('/^'.preg_quote($id, '/').'[ \t]+([^ \t]+)[ \t]+/', $AUTH_ACL);
     if(count($matches)) {
@@ -1098,12 +973,19 @@ function updateprofile() {
         return false;
     }
 
-    // update cookie and session with the changed data
     if($changes['pass']) {
+        // update cookie and session with the changed data
         list( /*user*/, $sticky, /*pass*/) = auth_getCookie();
         $pass = auth_encrypt($changes['pass'], auth_cookiesalt(!$sticky, true));
         auth_setCookie($INPUT->server->str('REMOTE_USER'), $pass, (bool) $sticky);
+    } else {
+        // make sure the session is writable
+        @session_start();
+        // invalidate session cache
+        $_SESSION[DOKU_COOKIE]['auth']['time'] = 0;
+        session_write_close();
     }
+
     return true;
 }
 

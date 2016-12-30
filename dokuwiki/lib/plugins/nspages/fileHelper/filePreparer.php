@@ -25,13 +25,14 @@ abstract class filePreparer {
     protected $useTitle;
     protected $useIdAndTitle;
     protected $sortPageByDate;
+    protected $sortByCreationDate;
 
     /**
      * bool
      */
     protected $sortPageById;
 
-    function __construct($excludedFiles, $pregOn, $pregOff, $useTitle, $sortPageById, $useIdAndTitle, $sortPageByDate){
+    function __construct($excludedFiles, $pregOn, $pregOff, $useTitle, $sortPageById, $useIdAndTitle, $sortPageByDate, $sortByCreationDate){
         $this->excludedFiles = $excludedFiles;
         $this->pregOn = $pregOn;
         $this->pregOff = $pregOff;
@@ -39,6 +40,7 @@ abstract class filePreparer {
         $this->sortPageById = $sortPageById;
         $this->useIdAndTitle = $useIdAndTitle;
         $this->sortPageByDate = $sortPageByDate;
+        $this->sortByCreationDate = $sortByCreationDate;
     }
 
     /**
@@ -53,6 +55,7 @@ abstract class filePreparer {
     function isFileWanted($file) {
         $wanted = true;
         $noNSId = noNS($file['id']);
+
         $wanted &= (!in_array($noNSId, $this->excludedFiles));
         foreach($this->pregOn as $preg) {
             $wanted &= preg_match($preg, $noNSId);

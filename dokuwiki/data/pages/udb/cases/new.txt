@@ -1,0 +1,10 @@
+====== Создать учётную карточку в базе данных ЮЮ ======
+
+<form>
+Action template udb:templates:ucase udb:cases:@@ucase.CountryCode@@:@@ucase.RegisterDate@@:%Y%m%d%H%M%S:ucase
+struct_field "ucase.CountryCode"
+struct_field "ucase.RegisterDate"
+struct_field "ucase.PlaceName"
+struct_field "ucase.FamilyName"
+submit "Создать учётную карточку в базе данных"
+</form>

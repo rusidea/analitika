@@ -21,5 +21,7 @@ $conf['fnencode'] = 'safe';
 $conf['plugin']['revealjs']['controls'] = 1;
 $conf['plugin']['revealjs']['build_all_lists'] = 1;
 $conf['plugin']['revealjs']['show_progress_bar'] = 1;
+$conf['dbdir'] = 'data/databases';
+$conf['plugin']['strata']['default_dsn'] = 'sqlite:data/databases/strata.sqlite3';
 
 // end auto-generated content
