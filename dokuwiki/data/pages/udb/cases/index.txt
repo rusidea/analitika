@@ -1,5 +1,12 @@
 ====== Список учётных карточек ======
 
+<WRAP left round box 50%>
+[[udb:cases:new|СОЗДАТЬ УЧЁТНУЮ КАРТОЧКУ]]
+</WRAP>
+
+----
+
+
 ---- struct table ----
 schema: ucase
 cols: %pageid%, RegisterDate, CountryCode, PlaceName, FamilyName

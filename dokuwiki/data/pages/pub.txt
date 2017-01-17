@@ -4,8 +4,8 @@
 Подробнее об архиве читайте [[wiki:pravila#rasprostranenie|на странице]].
 
 <WRAP left round info 60%>
-//**Последняя версия архива: v2.5.0**//
-[[https://yadi.sk/d/Od0_US-3ip46h|Скачать файл]] analitika-journal_v2.5.0.tar.gz
+//**Последняя версия архива: v2.6.0**//
+[[https://yadi.sk/d/tHa00Tbn38gN4f|Скачать файл]] analitika-journal_v2.6.0.tar.gz
 </WRAP>
 
 <WRAP left round info 60%>
@@ -15,18 +15,26 @@
 
 ===== История версий журнала =====
 
+==== v2.6.2 - 2017.01.17 ====
+
+  * Изменена контактная форма раздела [[wiki:postbox|Корреспонденция]].
+  * Обновлён раздел [[:udb|Ювенальная база данных]].
+  * Добавлен плагин [[https://www.dokuwiki.org/plugin:edittable|edittable]] для более удобного редактирования таблиц.
+  * Добавлен плагин [[https://www.dokuwiki.org/plugin:ckgedit|ckgedit]] для встроенного улучшенного редактора.
+
 ==== v2.5.2 - 2016.12.30 ====
 
-  * Создан раздел [[udb|База данных ЮЮ]].
+  * Создан раздел [[:udb|База данных ЮЮ]].
   * Добавлена возможность администрирования баз данных SQLite на основе [[https://bitbucket.org/phpliteadmin/public|phpliteadmin]].
   * Добавлен плагин [[https://www.dokuwiki.org/plugin:inclform|inclform]] для создания html+php форм.
-  * Добавлен модуль ''php_sqlite3'' для встроенного в журнале PHP.
+  * Добавлен модуль ''php_sqlite3''  для встроенного в журнале PHP.
   * Добавлен плагин [[https://www.dokuwiki.org/plugin:strata|strata]] для создания структурированных данных на страницах журнала.
   * Изменена версия встроенного программного обеспечения [[https://dist.ipfs.io/go-ipfs/v0.4.4/go-ipfs_v0.4.4_windows-386.zip|IPFS для Windows 32 bit]].
   * Обновлён файл README.md с инструкциями по обновлению встроенного вебсервера и php.
   * Обновлены версии встроенного вебсервера и php для работы с новыми плагинами.
   * Добавлен плагин [[https://www.dokuwiki.org/plugin:struct|struct]] для управления структурой данных.
   * Добавлен плагин [[https://www.dokuwiki.org/plugin:sqlite|sqlite]] для создания базы данных.
+
 
 ==== v2.4.2 - 2016.12.19 ====
 

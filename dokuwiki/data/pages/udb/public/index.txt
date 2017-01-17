@@ -1,0 +1,2 @@
+<nspages udb:public: -subns -hideNoSubns -hideNoPages -h1 -simpleList -actualTitle -exclude:[index new] -textNS="Список публичных страниц">
+

@@ -1,0 +1,13 @@
+====== Форма для создания публичной страницы ======
+
+Эта форма на всякий случай. Необходимо сделать шаблон для публичной страницы на основе этой формы.
+
+<form>
+Action template udb:templates:uindex udb:public:@@CaseID@@:index
+textbox "CaseID"
+textbox "CountryCode"
+textbox "RegisterDate"
+textbox "PlaceName"
+textbox "FamilyName"
+submit "Создать публичную страницу в базе данных"
+</form>
